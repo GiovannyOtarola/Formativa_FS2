@@ -137,3 +137,18 @@ nav a:hover {
     height: auto; 
 }
 
+.custom-container {
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2bc0e4, #eaecc6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2bc0e4, #2bc0e4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 15px; /* Radio de los bordes */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+}
+
+.bg {
+    background-image: url(images/logo.jpg);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
